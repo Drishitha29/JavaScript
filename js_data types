@@ -1,0 +1,54 @@
+Data types
+Dynamic type language
+Two types
+1.primitive data type: pre-defined and used to store single values
+	Ø Numbers- integer, float
+	Ø String-stream of characters enclosed with quotes
+	Ø Boolean- true or false
+	Ø Null= empty value or null value
+	Ø Undefined- declared variable with no value
+2.non-primitive data type: 
+	Ø object
+	Ø  arrays 
+
+
+<script> 
+        let a=1
+        console.log("hi +a+a")
+        document.write('hi+ a+a' ,"<br>")
+        document.write(`hi+ ${a+a}`)
+        console.log(`hi +${a+a}`)
+   
+Output:
+hi+ a+a
+hi+ 2
+
+String Concatnation
+a=sai
+b=kumar
+Age=30
+Let c=
+	Ø  let x="sai"
+        let y="kumar"
+        let z =30
+        console.log(`Iam ${x+y} , my age is ${z} years old`)
+        document.write(`Iam ${x+y} , my age is ${z} years old <br>`)
+
+Output: I am sai kumar,my age is 30 years old
+ 
+
+	Ø let a="Reactjs"
+    let b="sai kumar"
+    console.log(`${a}=${b}`)
+    document.write(`${a}=${b}`)
+
+Output:
+Reactjs=sai kumar
+
+
+Condition: an expression that evaluate the result(T/F)
+Conditional Statement: to make set of instructions execute only when the condition is true
+Block of code : set of instruction
+Indentation: { 
+		--Block of code
+			}
