@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /**
+        //Arrow function with no arguments
+        let c=()=>{
+            document.write("Rishi")
+        }
+        c()
+        
+        // Arrow function with two parameters
+        let x=(x,y)=>{
+            document.write(x+y)
+        }
+        x(5,6)
+
+        //Arrow function with single parameter 
+        let greet=x=>document.write(x)
+        greet("Rishi")
+        
+        //Arrow function with no parameter
+        let greet=()=>document.write("Rishi")
+        greet()
+        
+        //Arrow function as an expression
+        let age= 18;
+        let welcome=(age<18)?
+        ()=> document.write("You are a minor"):
+        ()=>document.write("You are a major")
+        welcome()
+        
+        function task1(){
+            document.write("Task 1 started","<br>")
+        }
+        function task2(){
+            document.write("Task 2 started","<br>")
+        }
+        function task3(){
+            document.write("Task 3 started","<br>")
+        }
+        task1()
+        task2()
+        task3()
+        
+        //Asynchronous Functions
+        document.write("Hi Sathvik","<br>");
+        setTimeout(()=>{
+            document.write("Iam eating");
+        },5000);
+        document.write("How are you")
+        **/
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+//Callback
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /**
+        function greet(name,callback){
+            document.write(`Hello, ${name}! <br>`);
+            callback();
+        }
+        function sayGoodbye(){
+            document.write('Goodbye!');
+        }
+        greet("Rishi",sayGoodbye)
+        **/
+        let myPromise=new Promise((resolve,reject)=>{
+            let success=true;
+            if(success){
+                resolve("Hello, Rishi!");
+            }else{
+                reject("Something went wrong");
+            }
+        })
+        Promise()
+    </script>
+</body>
+</html>
