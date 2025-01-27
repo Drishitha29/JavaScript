@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /**
+        let mypromise = new Promise((resolve,reject)=>{
+            let success = true;
+            if (success){
+                resolve("Promise resolved");
+        }else{
+            reject("Promise rejected");
+        }
+    });
+    mypromise.then(result=>{
+        document.write(result);
+    })
+    mypromise.catch(Error=>{
+        document.write(Error);
+    })
+        
+
+    let mypromise = new Promise((resolve,reject)=>{
+        resolve(5);
+        });
+        mypromise.then(result=>{
+            document.write(result);
+            return result*2;
+        })
+        .then(result=>{
+            document.write(result);
+            return result+3;
+
+        })
+        .then(result=>{
+            document.write(result);
+
+        })
+        .catch(Error=>{
+            document.write(Error);
+
+        })
+           
+
+            let promise=new Promise((resolve,reject)=>{
+                resolve("The operation is successful... Enjoy")
+            })
+            .then(result=>{
+                document.write("Congratulations!")
+                setTimeout(()=>{
+                    document.write("Success")
+                },3000)
+            })
+            .catch(error=>{
+                document.write("error:"+error)
+            })
+                 **/
+
+            
+
+        
+
+    </script>
+</body>
+</html>
