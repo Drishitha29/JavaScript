@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="a">
+        <h1>Rishi</h1>
+        <h1 id="r">Hansi</h1>
+    </div>
+    <div id="b">
+        <h2>Valli</h2>
+        <h2>Nandu</h2>
+    </div>
+    <!-- <script>
+        let n=document.createElement("h2")
+        n.textContent="Ria"
+        let p=document.getElementById('a')
+        let l=document.getElementById('r')
+        p.insertBefore(n,l)
+
+        let o=document.createElement("h2")
+        o.textContent="John"
+        let m=document.getElementById('s')
+        p.insertBefore(o,m)
+        console.log(p)
+    </script> -->
+
+    <!-- <script>
+        let n=document.getElementById('a')
+        let l=document.getElementById('r')
+        console.log(l)
+        n.removeChild(l)
+    </script>    -->
+
+    <script>
+        let n=document.createElement('h1')
+        n.textContent="Ken"
+        let l=document.getElementById('a')
+        l.replaceChildren(n)
+        console.log(l)
+    </script> 
+
+</body>
+</html>
