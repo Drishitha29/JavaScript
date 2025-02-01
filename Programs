@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        /** let age = prompt("Enter the age");
+        let citizen = prompt("Enter the citizenship");
+        let cTest = prompt("Citizenship result");
+        
+        if((age >= 18) && (citizen=="Indian"||cTest =="Passed")){
+            document.write("Can eligible for voting");
+        }
+        else{
+            document.write("Cannot vote");
+        } 
+        
+
+        let amount = prompt("Enter the amount spent: ");
+        let permium = prompt("Are you a premium customer?");
+        if((amount >= 100) && (permium == "Yes")){
+            document.write("You are eligible for 25% discount");
+        }
+        else if((amount >= 100) && (permium == "No")){
+            document.write("You are eligible for 20% discount");
+        }else if((amount>50 && amount<100)&&(permium == "Yes")){
+            document.write("You are eligible for 15% discount");
+        }else if((amount>50 && amount<100)&&(permium == "No")){
+            document.write("You are eligible for10%  discount");
+        }else{
+            document.write("You are not eligible for discount");
+        }
+        **/
+
+        
+        let 
+    </script>
+</body>
+</html>
